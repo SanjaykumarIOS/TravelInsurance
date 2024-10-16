@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Medium.ttf</string>
+		<string>AntartidaRounded-Mediumitalic.ttf</string>
+		<string>AntartidaRounded-Bold.ttf</string>
+		<string>AntartidaRounded-Light.ttf</string>
+		<string>AntartidaRounded-Medium.ttf</string>
+		<string>AntartidaRounded-Black.ttf</string>
+	</array>
+</dict>
+</plist>

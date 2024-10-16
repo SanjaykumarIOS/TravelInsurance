@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921D902F2C04582F00C5213F /* MyPolicyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D902E2C04582F00C5213F /* MyPolicyPage.swift */; };
+		921D90312C04665000C5213F /* PermissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D90302C04665000C5213F /* PermissionPage.swift */; };
+		921E6B4E2BFC705800CB244F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E6B4D2BFC705800CB244F /* LoginPage.swift */; };
+		921F4D382C086413000D5251 /* GetPremiumPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F4D372C086413000D5251 /* GetPremiumPage.swift */; };
+		921F4D3A2C0876B1000D5251 /* QuotationInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F4D392C0876B1000D5251 /* QuotationInfoModel.swift */; };
+		9220A2E82BF5DADA00D1AD63 /* TravelInsuranceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A2E72BF5DADA00D1AD63 /* TravelInsuranceApp.swift */; };
+		9220A2EA2BF5DADA00D1AD63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A2E92BF5DADA00D1AD63 /* ContentView.swift */; };
+		9220A2EC2BF5DADC00D1AD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9220A2EB2BF5DADC00D1AD63 /* Assets.xcassets */; };
+		9220A2EF2BF5DADC00D1AD63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9220A2EE2BF5DADC00D1AD63 /* Preview Assets.xcassets */; };
+		9220A2F92BF5DADD00D1AD63 /* TravelInsuranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A2F82BF5DADD00D1AD63 /* TravelInsuranceTests.swift */; };
+		9220A3032BF5DADD00D1AD63 /* TravelInsuranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3022BF5DADD00D1AD63 /* TravelInsuranceUITests.swift */; };
+		9220A3052BF5DADD00D1AD63 /* TravelInsuranceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3042BF5DADD00D1AD63 /* TravelInsuranceUITestsLaunchTests.swift */; };
+		9220A31A2BF5DE7F00D1AD63 /* FontsStyle & Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3192BF5DE7F00D1AD63 /* FontsStyle & Colours.swift */; };
+		9220A31C2BF5DFC800D1AD63 /* AntartidaRounded-Mediumitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3122BF5DDE400D1AD63 /* AntartidaRounded-Mediumitalic.ttf */; };
+		9220A31D2BF5DFCD00D1AD63 /* AntartidaRounded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3132BF5DDF400D1AD63 /* AntartidaRounded-Bold.ttf */; };
+		9220A31E2BF5DFD000D1AD63 /* AntartidaRounded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3142BF5DE0600D1AD63 /* AntartidaRounded-Light.ttf */; };
+		9220A31F2BF5DFD400D1AD63 /* AntartidaRounded-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3152BF5DE1000D1AD63 /* AntartidaRounded-Black.ttf */; };
+		9220A3202BF5DFD800D1AD63 /* AntartidaRounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3162BF5DE1700D1AD63 /* AntartidaRounded-Medium.ttf */; };
+		9220A3212BF5DFDC00D1AD63 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3172BF5DE1E00D1AD63 /* Roboto-Regular.ttf */; };
+		9220A3222BF5DFE000D1AD63 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9220A3182BF5DE2500D1AD63 /* Roboto-Medium.ttf */; };
+		9220A3242BF5E1A400D1AD63 /* QuotationFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3232BF5E1A400D1AD63 /* QuotationFields.swift */; };
+		9220A3272BF5E21000D1AD63 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3262BF5E21000D1AD63 /* LoadingView.swift */; };
+		9220A32A2BF5E26800D1AD63 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3292BF5E26800D1AD63 /* AlertModel.swift */; };
+		9220A32D2BF5E2E700D1AD63 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A32C2BF5E2E700D1AD63 /* Extenstions.swift */; };
+		9220A3302BF5E36500D1AD63 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A32F2BF5E36500D1AD63 /* NetworkConnection.swift */; };
+		9220A3332BF6301700D1AD63 /* DatePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220A3322BF6301700D1AD63 /* DatePickerManager.swift */; };
+		9224F8A02C0058130078DF39 /* ProposalForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224F89F2C0058130078DF39 /* ProposalForm.swift */; };
+		9224F8A22C0065F50078DF39 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224F8A12C0065F50078DF39 /* LandingPage.swift */; };
+		9224F8A82C0093F00078DF39 /* MyQuotationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224F8A72C0093F00078DF39 /* MyQuotationsPage.swift */; };
+		9224F8AA2C00957D0078DF39 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224F8A92C00957D0078DF39 /* Headers.swift */; };
+		923CFFFF2C070A51008AE1CA /* GetMasterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CFFFE2C070A51008AE1CA /* GetMasterDataModel.swift */; };
+		9251FCA22C1082FE00A7EEDE /* AdditionalDataComparePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251FCA12C1082FE00A7EEDE /* AdditionalDataComparePage.swift */; };
+		925AE4232C083D0D00086689 /* DashboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AE4222C083D0D00086689 /* DashboardPage.swift */; };
+		925B91A32C1953AC00D1FF22 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B91A22C1953AC00D1FF22 /* ApiService.swift */; };
+		925B91A62C19801500D1FF22 /* MyPolicyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B91A52C19801500D1FF22 /* MyPolicyModel.swift */; };
+		925B91A82C19C14000D1FF22 /* PolicyDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B91A72C19C14000D1FF22 /* PolicyDetailsPage.swift */; };
+		926267612C0D957800C158C7 /* ComparePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926267602C0D957800C158C7 /* ComparePage.swift */; };
+		926267632C0D989000C158C7 /* QuotationCompareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926267622C0D989000C158C7 /* QuotationCompareModel.swift */; };
+		926267652C0DE35900C158C7 /* FileUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926267642C0DE35900C158C7 /* FileUploadManager.swift */; };
+		9288F3BC2C09AEF2001E7E47 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288F3BB2C09AEF2001E7E47 /* UserInfoModel.swift */; };
+		929EF8832C1805C100786FD9 /* PaymentReviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EF8822C1805C100786FD9 /* PaymentReviewPage.swift */; };
+		929EF8852C181FB400786FD9 /* PaymentProcessingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EF8842C181FB400786FD9 /* PaymentProcessingPage.swift */; };
+		929EF8882C184FBA00786FD9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 929EF8872C184FBA00786FD9 /* Lottie */; };
+		929EF88B2C18501000786FD9 /* payment_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 929EF88A2C18501000786FD9 /* payment_animation.json */; };
+		929EF88D2C18501900786FD9 /* unsuccessful_payment.json in Resources */ = {isa = PBXBuildFile; fileRef = 929EF88C2C18501900786FD9 /* unsuccessful_payment.json */; };
+		929EF88F2C18508600786FD9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EF88E2C18508600786FD9 /* LottieView.swift */; };
+		92AC1DF02C17018E009655F8 /* MyQuotationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC1DEF2C17018E009655F8 /* MyQuotationsModel.swift */; };
+		92BCACD12C1B01B1006B6ECE /* PaymentConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BCACD02C1B01B1006B6ECE /* PaymentConfirmationPage.swift */; };
+		92C9ACD32BFF06770072E139 /* OtpVerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9ACD22BFF06770072E139 /* OtpVerificationPage.swift */; };
+		92EA4D222BFDB05900B350B2 /* Products in Resources */ = {isa = PBXBuildFile; fileRef = 92EA4D212BFDB05800B350B2 /* Products */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9220A2F52BF5DADD00D1AD63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9220A2DC2BF5DADA00D1AD63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9220A2E32BF5DADA00D1AD63;
+			remoteInfo = TravelInsurance;
+		};
+		9220A2FF2BF5DADD00D1AD63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9220A2DC2BF5DADA00D1AD63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9220A2E32BF5DADA00D1AD63;
+			remoteInfo = TravelInsurance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921D902E2C04582F00C5213F /* MyPolicyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPolicyPage.swift; sourceTree = "<group>"; };
+		921D90302C04665000C5213F /* PermissionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionPage.swift; sourceTree = "<group>"; };
+		921E6B4D2BFC705800CB244F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		921F4D372C086413000D5251 /* GetPremiumPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPremiumPage.swift; sourceTree = "<group>"; };
+		921F4D392C0876B1000D5251 /* QuotationInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationInfoModel.swift; sourceTree = "<group>"; };
+		9220A2E42BF5DADA00D1AD63 /* TravelInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9220A2E72BF5DADA00D1AD63 /* TravelInsuranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelInsuranceApp.swift; sourceTree = "<group>"; };
+		9220A2E92BF5DADA00D1AD63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9220A2EB2BF5DADC00D1AD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9220A2EE2BF5DADC00D1AD63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9220A2F42BF5DADD00D1AD63 /* TravelInsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelInsuranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9220A2F82BF5DADD00D1AD63 /* TravelInsuranceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelInsuranceTests.swift; sourceTree = "<group>"; };
+		9220A2FE2BF5DADD00D1AD63 /* TravelInsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelInsuranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9220A3022BF5DADD00D1AD63 /* TravelInsuranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelInsuranceUITests.swift; sourceTree = "<group>"; };
+		9220A3042BF5DADD00D1AD63 /* TravelInsuranceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelInsuranceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9220A3122BF5DDE400D1AD63 /* AntartidaRounded-Mediumitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntartidaRounded-Mediumitalic.ttf"; sourceTree = "<group>"; };
+		9220A3132BF5DDF400D1AD63 /* AntartidaRounded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntartidaRounded-Bold.ttf"; sourceTree = "<group>"; };
+		9220A3142BF5DE0600D1AD63 /* AntartidaRounded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntartidaRounded-Light.ttf"; sourceTree = "<group>"; };
+		9220A3152BF5DE1000D1AD63 /* AntartidaRounded-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntartidaRounded-Black.ttf"; sourceTree = "<group>"; };
+		9220A3162BF5DE1700D1AD63 /* AntartidaRounded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntartidaRounded-Medium.ttf"; sourceTree = "<group>"; };
+		9220A3172BF5DE1E00D1AD63 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9220A3182BF5DE2500D1AD63 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9220A3192BF5DE7F00D1AD63 /* FontsStyle & Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontsStyle & Colours.swift"; sourceTree = "<group>"; };
+		9220A31B2BF5DEF400D1AD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9220A3232BF5E1A400D1AD63 /* QuotationFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationFields.swift; sourceTree = "<group>"; };
+		9220A3262BF5E21000D1AD63 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9220A3292BF5E26800D1AD63 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		9220A32C2BF5E2E700D1AD63 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		9220A32F2BF5E36500D1AD63 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		9220A3322BF6301700D1AD63 /* DatePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerManager.swift; sourceTree = "<group>"; };
+		9224F89F2C0058130078DF39 /* ProposalForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalForm.swift; sourceTree = "<group>"; };
+		9224F8A12C0065F50078DF39 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		9224F8A72C0093F00078DF39 /* MyQuotationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuotationsPage.swift; sourceTree = "<group>"; };
+		9224F8A92C00957D0078DF39 /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		923CFFFE2C070A51008AE1CA /* GetMasterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMasterDataModel.swift; sourceTree = "<group>"; };
+		9251FCA12C1082FE00A7EEDE /* AdditionalDataComparePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalDataComparePage.swift; sourceTree = "<group>"; };
+		925AE4222C083D0D00086689 /* DashboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPage.swift; sourceTree = "<group>"; };
+		925B91A22C1953AC00D1FF22 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		925B91A52C19801500D1FF22 /* MyPolicyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPolicyModel.swift; sourceTree = "<group>"; };
+		925B91A72C19C14000D1FF22 /* PolicyDetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyDetailsPage.swift; sourceTree = "<group>"; };
+		926267602C0D957800C158C7 /* ComparePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparePage.swift; sourceTree = "<group>"; };
+		926267622C0D989000C158C7 /* QuotationCompareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationCompareModel.swift; sourceTree = "<group>"; };
+		926267642C0DE35900C158C7 /* FileUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadManager.swift; sourceTree = "<group>"; };
+		9288F3BB2C09AEF2001E7E47 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		929EF8822C1805C100786FD9 /* PaymentReviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentReviewPage.swift; sourceTree = "<group>"; };
+		929EF8842C181FB400786FD9 /* PaymentProcessingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProcessingPage.swift; sourceTree = "<group>"; };
+		929EF88A2C18501000786FD9 /* payment_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payment_animation.json; sourceTree = "<group>"; };
+		929EF88C2C18501900786FD9 /* unsuccessful_payment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = unsuccessful_payment.json; sourceTree = "<group>"; };
+		929EF88E2C18508600786FD9 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		92AC1DEF2C17018E009655F8 /* MyQuotationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuotationsModel.swift; sourceTree = "<group>"; };
+		92BCACD02C1B01B1006B6ECE /* PaymentConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationPage.swift; sourceTree = "<group>"; };
+		92C9ACD22BFF06770072E139 /* OtpVerificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationPage.swift; sourceTree = "<group>"; };
+		92EA4D212BFDB05800B350B2 /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Products; sourceTree = "<group>"; };
+		92EA4D232BFDB06D00B350B2 /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Products; path = "../../../../Library/Developer/Xcode/DerivedData/TravelInsurance-dkygaftwicaekqawwtsufzgejmdn/Build/Products"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9220A2E12BF5DADA00D1AD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929EF8882C184FBA00786FD9 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2F12BF5DADD00D1AD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2FB2BF5DADD00D1AD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921D902D2C04581200C5213F /* PolicyView */ = {
+			isa = PBXGroup;
+			children = (
+				921D902E2C04582F00C5213F /* MyPolicyPage.swift */,
+				925B91A72C19C14000D1FF22 /* PolicyDetailsPage.swift */,
+				925B91A42C197FF600D1FF22 /* Models */,
+			);
+			path = PolicyView;
+			sourceTree = "<group>";
+		};
+		921E6B4C2BFC701600CB244F /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				921E6B4D2BFC705800CB244F /* LoginPage.swift */,
+				92C9ACD22BFF06770072E139 /* OtpVerificationPage.swift */,
+				921D90302C04665000C5213F /* PermissionPage.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		9220A2DB2BF5DADA00D1AD63 = {
+			isa = PBXGroup;
+			children = (
+				9220A2E62BF5DADA00D1AD63 /* TravelInsurance */,
+				9220A2F72BF5DADD00D1AD63 /* TravelInsuranceTests */,
+				9220A3012BF5DADD00D1AD63 /* TravelInsuranceUITests */,
+				9220A2E52BF5DADA00D1AD63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9220A2E52BF5DADA00D1AD63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9220A2E42BF5DADA00D1AD63 /* TravelInsurance.app */,
+				9220A2F42BF5DADD00D1AD63 /* TravelInsuranceTests.xctest */,
+				9220A2FE2BF5DADD00D1AD63 /* TravelInsuranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9220A2E62BF5DADA00D1AD63 /* TravelInsurance */ = {
+			isa = PBXGroup;
+			children = (
+				9220A31B2BF5DEF400D1AD63 /* Info.plist */,
+				9220A2E72BF5DADA00D1AD63 /* TravelInsuranceApp.swift */,
+				9220A2E92BF5DADA00D1AD63 /* ContentView.swift */,
+				9224F8A92C00957D0078DF39 /* Headers.swift */,
+				925B91A22C1953AC00D1FF22 /* ApiService.swift */,
+				925AE4212C083CBE00086689 /* DashboardView */,
+				921E6B4C2BFC701600CB244F /* LoginView */,
+				9220A3312BF62FFB00D1AD63 /* QuotationView */,
+				9224F89E2C0057FA0078DF39 /* ProposalForm */,
+				921D902D2C04581200C5213F /* PolicyView */,
+				929EF8812C1805A000786FD9 /* PaymentVIew */,
+				929EF8892C184FE500786FD9 /* LottieAnimationView */,
+				9220A32B2BF5E2C800D1AD63 /* Extenstions */,
+				9220A3282BF5E25100D1AD63 /* AlertModel */,
+				9220A3252BF5E1F700D1AD63 /* LoadingView */,
+				9220A32E2BF5E34800D1AD63 /* NetworkConnection */,
+				9220A3112BF5DDAD00D1AD63 /* Fonts & Colours */,
+				9220A2EB2BF5DADC00D1AD63 /* Assets.xcassets */,
+				9220A2ED2BF5DADC00D1AD63 /* Preview Content */,
+			);
+			path = TravelInsurance;
+			sourceTree = "<group>";
+		};
+		9220A2ED2BF5DADC00D1AD63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9220A2EE2BF5DADC00D1AD63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9220A2F72BF5DADD00D1AD63 /* TravelInsuranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9220A2F82BF5DADD00D1AD63 /* TravelInsuranceTests.swift */,
+			);
+			path = TravelInsuranceTests;
+			sourceTree = "<group>";
+		};
+		9220A3012BF5DADD00D1AD63 /* TravelInsuranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92EA4D212BFDB05800B350B2 /* Products */,
+				92EA4D232BFDB06D00B350B2 /* Products */,
+				9220A3022BF5DADD00D1AD63 /* TravelInsuranceUITests.swift */,
+				9220A3042BF5DADD00D1AD63 /* TravelInsuranceUITestsLaunchTests.swift */,
+			);
+			path = TravelInsuranceUITests;
+			sourceTree = "<group>";
+		};
+		9220A3112BF5DDAD00D1AD63 /* Fonts & Colours */ = {
+			isa = PBXGroup;
+			children = (
+				9220A3192BF5DE7F00D1AD63 /* FontsStyle & Colours.swift */,
+				9220A3122BF5DDE400D1AD63 /* AntartidaRounded-Mediumitalic.ttf */,
+				9220A3132BF5DDF400D1AD63 /* AntartidaRounded-Bold.ttf */,
+				9220A3142BF5DE0600D1AD63 /* AntartidaRounded-Light.ttf */,
+				9220A3152BF5DE1000D1AD63 /* AntartidaRounded-Black.ttf */,
+				9220A3162BF5DE1700D1AD63 /* AntartidaRounded-Medium.ttf */,
+				9220A3172BF5DE1E00D1AD63 /* Roboto-Regular.ttf */,
+				9220A3182BF5DE2500D1AD63 /* Roboto-Medium.ttf */,
+			);
+			path = "Fonts & Colours";
+			sourceTree = "<group>";
+		};
+		9220A3252BF5E1F700D1AD63 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				9220A3262BF5E21000D1AD63 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		9220A3282BF5E25100D1AD63 /* AlertModel */ = {
+			isa = PBXGroup;
+			children = (
+				9220A3292BF5E26800D1AD63 /* AlertModel.swift */,
+			);
+			path = AlertModel;
+			sourceTree = "<group>";
+		};
+		9220A32B2BF5E2C800D1AD63 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				9220A32C2BF5E2E700D1AD63 /* Extenstions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		9220A32E2BF5E34800D1AD63 /* NetworkConnection */ = {
+			isa = PBXGroup;
+			children = (
+				9220A32F2BF5E36500D1AD63 /* NetworkConnection.swift */,
+			);
+			path = NetworkConnection;
+			sourceTree = "<group>";
+		};
+		9220A3312BF62FFB00D1AD63 /* QuotationView */ = {
+			isa = PBXGroup;
+			children = (
+				9220A3232BF5E1A400D1AD63 /* QuotationFields.swift */,
+				921F4D372C086413000D5251 /* GetPremiumPage.swift */,
+				926267602C0D957800C158C7 /* ComparePage.swift */,
+				9251FCA12C1082FE00A7EEDE /* AdditionalDataComparePage.swift */,
+				9224F8A72C0093F00078DF39 /* MyQuotationsPage.swift */,
+				9220A3322BF6301700D1AD63 /* DatePickerManager.swift */,
+				923CFFFD2C070A32008AE1CA /* Models */,
+			);
+			path = QuotationView;
+			sourceTree = "<group>";
+		};
+		9224F89E2C0057FA0078DF39 /* ProposalForm */ = {
+			isa = PBXGroup;
+			children = (
+				9224F89F2C0058130078DF39 /* ProposalForm.swift */,
+				926267642C0DE35900C158C7 /* FileUploadManager.swift */,
+				9288F3BA2C09AEDD001E7E47 /* Models */,
+			);
+			path = ProposalForm;
+			sourceTree = "<group>";
+		};
+		923CFFFD2C070A32008AE1CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				923CFFFE2C070A51008AE1CA /* GetMasterDataModel.swift */,
+				921F4D392C0876B1000D5251 /* QuotationInfoModel.swift */,
+				926267622C0D989000C158C7 /* QuotationCompareModel.swift */,
+				92AC1DEF2C17018E009655F8 /* MyQuotationsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		925AE4212C083CBE00086689 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				9224F8A12C0065F50078DF39 /* LandingPage.swift */,
+				925AE4222C083D0D00086689 /* DashboardPage.swift */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		925B91A42C197FF600D1FF22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				925B91A52C19801500D1FF22 /* MyPolicyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9288F3BA2C09AEDD001E7E47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9288F3BB2C09AEF2001E7E47 /* UserInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		929EF8812C1805A000786FD9 /* PaymentVIew */ = {
+			isa = PBXGroup;
+			children = (
+				929EF8822C1805C100786FD9 /* PaymentReviewPage.swift */,
+				929EF8842C181FB400786FD9 /* PaymentProcessingPage.swift */,
+				92BCACD02C1B01B1006B6ECE /* PaymentConfirmationPage.swift */,
+			);
+			path = PaymentVIew;
+			sourceTree = "<group>";
+		};
+		929EF8892C184FE500786FD9 /* LottieAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				929EF88A2C18501000786FD9 /* payment_animation.json */,
+				929EF88C2C18501900786FD9 /* unsuccessful_payment.json */,
+				929EF88E2C18508600786FD9 /* LottieView.swift */,
+			);
+			path = LottieAnimationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9220A2E32BF5DADA00D1AD63 /* TravelInsurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9220A3082BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsurance" */;
+			buildPhases = (
+				9220A2E02BF5DADA00D1AD63 /* Sources */,
+				9220A2E12BF5DADA00D1AD63 /* Frameworks */,
+				9220A2E22BF5DADA00D1AD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelInsurance;
+			packageProductDependencies = (
+				929EF8872C184FBA00786FD9 /* Lottie */,
+			);
+			productName = TravelInsurance;
+			productReference = 9220A2E42BF5DADA00D1AD63 /* TravelInsurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9220A2F32BF5DADD00D1AD63 /* TravelInsuranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9220A30B2BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsuranceTests" */;
+			buildPhases = (
+				9220A2F02BF5DADD00D1AD63 /* Sources */,
+				9220A2F12BF5DADD00D1AD63 /* Frameworks */,
+				9220A2F22BF5DADD00D1AD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9220A2F62BF5DADD00D1AD63 /* PBXTargetDependency */,
+			);
+			name = TravelInsuranceTests;
+			productName = TravelInsuranceTests;
+			productReference = 9220A2F42BF5DADD00D1AD63 /* TravelInsuranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9220A2FD2BF5DADD00D1AD63 /* TravelInsuranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9220A30E2BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsuranceUITests" */;
+			buildPhases = (
+				9220A2FA2BF5DADD00D1AD63 /* Sources */,
+				9220A2FB2BF5DADD00D1AD63 /* Frameworks */,
+				9220A2FC2BF5DADD00D1AD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9220A3002BF5DADD00D1AD63 /* PBXTargetDependency */,
+			);
+			name = TravelInsuranceUITests;
+			productName = TravelInsuranceUITests;
+			productReference = 9220A2FE2BF5DADD00D1AD63 /* TravelInsuranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9220A2DC2BF5DADA00D1AD63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9220A2E32BF5DADA00D1AD63 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9220A2F32BF5DADD00D1AD63 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9220A2E32BF5DADA00D1AD63;
+					};
+					9220A2FD2BF5DADD00D1AD63 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9220A2E32BF5DADA00D1AD63;
+					};
+				};
+			};
+			buildConfigurationList = 9220A2DF2BF5DADA00D1AD63 /* Build configuration list for PBXProject "TravelInsurance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9220A2DB2BF5DADA00D1AD63;
+			packageReferences = (
+				929EF8862C184FBA00786FD9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 9220A2E52BF5DADA00D1AD63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9220A2E32BF5DADA00D1AD63 /* TravelInsurance */,
+				9220A2F32BF5DADD00D1AD63 /* TravelInsuranceTests */,
+				9220A2FD2BF5DADD00D1AD63 /* TravelInsuranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9220A2E22BF5DADA00D1AD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9220A3222BF5DFE000D1AD63 /* Roboto-Medium.ttf in Resources */,
+				9220A3212BF5DFDC00D1AD63 /* Roboto-Regular.ttf in Resources */,
+				9220A3202BF5DFD800D1AD63 /* AntartidaRounded-Medium.ttf in Resources */,
+				929EF88D2C18501900786FD9 /* unsuccessful_payment.json in Resources */,
+				9220A31F2BF5DFD400D1AD63 /* AntartidaRounded-Black.ttf in Resources */,
+				9220A31E2BF5DFD000D1AD63 /* AntartidaRounded-Light.ttf in Resources */,
+				9220A31D2BF5DFCD00D1AD63 /* AntartidaRounded-Bold.ttf in Resources */,
+				9220A31C2BF5DFC800D1AD63 /* AntartidaRounded-Mediumitalic.ttf in Resources */,
+				929EF88B2C18501000786FD9 /* payment_animation.json in Resources */,
+				9220A2EF2BF5DADC00D1AD63 /* Preview Assets.xcassets in Resources */,
+				9220A2EC2BF5DADC00D1AD63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2F22BF5DADD00D1AD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2FC2BF5DADD00D1AD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EA4D222BFDB05900B350B2 /* Products in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9220A2E02BF5DADA00D1AD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288F3BC2C09AEF2001E7E47 /* UserInfoModel.swift in Sources */,
+				921D902F2C04582F00C5213F /* MyPolicyPage.swift in Sources */,
+				9220A31A2BF5DE7F00D1AD63 /* FontsStyle & Colours.swift in Sources */,
+				925B91A82C19C14000D1FF22 /* PolicyDetailsPage.swift in Sources */,
+				929EF8832C1805C100786FD9 /* PaymentReviewPage.swift in Sources */,
+				9251FCA22C1082FE00A7EEDE /* AdditionalDataComparePage.swift in Sources */,
+				925AE4232C083D0D00086689 /* DashboardPage.swift in Sources */,
+				9220A3332BF6301700D1AD63 /* DatePickerManager.swift in Sources */,
+				9224F8A82C0093F00078DF39 /* MyQuotationsPage.swift in Sources */,
+				926267612C0D957800C158C7 /* ComparePage.swift in Sources */,
+				9224F8A22C0065F50078DF39 /* LandingPage.swift in Sources */,
+				92C9ACD32BFF06770072E139 /* OtpVerificationPage.swift in Sources */,
+				9224F8AA2C00957D0078DF39 /* Headers.swift in Sources */,
+				9220A32D2BF5E2E700D1AD63 /* Extenstions.swift in Sources */,
+				92AC1DF02C17018E009655F8 /* MyQuotationsModel.swift in Sources */,
+				9220A2EA2BF5DADA00D1AD63 /* ContentView.swift in Sources */,
+				921D90312C04665000C5213F /* PermissionPage.swift in Sources */,
+				926267652C0DE35900C158C7 /* FileUploadManager.swift in Sources */,
+				929EF88F2C18508600786FD9 /* LottieView.swift in Sources */,
+				921F4D382C086413000D5251 /* GetPremiumPage.swift in Sources */,
+				92BCACD12C1B01B1006B6ECE /* PaymentConfirmationPage.swift in Sources */,
+				9220A2E82BF5DADA00D1AD63 /* TravelInsuranceApp.swift in Sources */,
+				9220A3302BF5E36500D1AD63 /* NetworkConnection.swift in Sources */,
+				925B91A62C19801500D1FF22 /* MyPolicyModel.swift in Sources */,
+				923CFFFF2C070A51008AE1CA /* GetMasterDataModel.swift in Sources */,
+				929EF8852C181FB400786FD9 /* PaymentProcessingPage.swift in Sources */,
+				921F4D3A2C0876B1000D5251 /* QuotationInfoModel.swift in Sources */,
+				926267632C0D989000C158C7 /* QuotationCompareModel.swift in Sources */,
+				9220A3272BF5E21000D1AD63 /* LoadingView.swift in Sources */,
+				925B91A32C1953AC00D1FF22 /* ApiService.swift in Sources */,
+				9220A32A2BF5E26800D1AD63 /* AlertModel.swift in Sources */,
+				9224F8A02C0058130078DF39 /* ProposalForm.swift in Sources */,
+				921E6B4E2BFC705800CB244F /* LoginPage.swift in Sources */,
+				9220A3242BF5E1A400D1AD63 /* QuotationFields.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2F02BF5DADD00D1AD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9220A2F92BF5DADD00D1AD63 /* TravelInsuranceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9220A2FA2BF5DADD00D1AD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9220A3032BF5DADD00D1AD63 /* TravelInsuranceUITests.swift in Sources */,
+				9220A3052BF5DADD00D1AD63 /* TravelInsuranceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9220A2F62BF5DADD00D1AD63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9220A2E32BF5DADA00D1AD63 /* TravelInsurance */;
+			targetProxy = 9220A2F52BF5DADD00D1AD63 /* PBXContainerItemProxy */;
+		};
+		9220A3002BF5DADD00D1AD63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9220A2E32BF5DADA00D1AD63 /* TravelInsurance */;
+			targetProxy = 9220A2FF2BF5DADD00D1AD63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9220A3062BF5DADD00D1AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9220A3072BF5DADD00D1AD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9220A3092BF5DADD00D1AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelInsurance/Preview Content\"";
+				DEVELOPMENT_TEAM = UADF4P9R4E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelInsurance/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindiatravelinsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9220A30A2BF5DADD00D1AD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelInsurance/Preview Content\"";
+				DEVELOPMENT_TEAM = UADF4P9R4E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelInsurance/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindiatravelinsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9220A30C2BF5DADD00D1AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G9YY4HY89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindia.travelinsurance.TravelInsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelInsurance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelInsurance";
+			};
+			name = Debug;
+		};
+		9220A30D2BF5DADD00D1AD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G9YY4HY89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindia.travelinsurance.TravelInsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelInsurance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelInsurance";
+			};
+			name = Release;
+		};
+		9220A30F2BF5DADD00D1AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G9YY4HY89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindia.travelinsurance.TravelInsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelInsurance;
+			};
+			name = Debug;
+		};
+		9220A3102BF5DADD00D1AD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G9YY4HY89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenindia.travelinsurance.TravelInsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelInsurance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9220A2DF2BF5DADA00D1AD63 /* Build configuration list for PBXProject "TravelInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9220A3062BF5DADD00D1AD63 /* Debug */,
+				9220A3072BF5DADD00D1AD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9220A3082BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9220A3092BF5DADD00D1AD63 /* Debug */,
+				9220A30A2BF5DADD00D1AD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9220A30B2BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsuranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9220A30C2BF5DADD00D1AD63 /* Debug */,
+				9220A30D2BF5DADD00D1AD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9220A30E2BF5DADD00D1AD63 /* Build configuration list for PBXNativeTarget "TravelInsuranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9220A30F2BF5DADD00D1AD63 /* Debug */,
+				9220A3102BF5DADD00D1AD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		929EF8862C184FBA00786FD9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		929EF8872C184FBA00786FD9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 929EF8862C184FBA00786FD9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9220A2DC2BF5DADA00D1AD63 /* Project object */;
+}
